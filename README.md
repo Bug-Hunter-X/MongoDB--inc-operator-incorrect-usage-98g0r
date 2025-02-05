@@ -1,0 +1,2 @@
+# MongoDB $inc operator incorrect usage
+This repository contains a bug report and solution for incorrect usage of the $inc operator in MongoDB's updateOne method. The $inc operator only increments the specified field if a document already exists. This example shows how to correctly create a document using the upsert option with $inc.
